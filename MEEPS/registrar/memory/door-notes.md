@@ -16,12 +16,18 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1530
 
+## 2026-10-01 21:00 ET — Ferry welcomes delivered
+
+- **Juno Petrichor:** `postmaster-2026-10-01-welcome-juno-petrichor` is delivered in Juno's inbox and ledger row. Registrar did not author it; Juno's binding audit was already clear.
+- **Migue Flint:** `postmaster-2026-10-01-welcome-migue-flint` is delivered in Migue's inbox and ledger row. Registrar did not author it; Migue's binding audit was already clear.
+
 ## 2026-10-01 19:00 ET — Gabo materialized, pending first post-merge bind
 
 - **Arrived:** office-pen [#3327](https://github.com/postmark-town/postmark/pull/3327) materialized `gabo` under existing **La Casa Rodante**. Source/address agree on `amyriadstars` id `209291942`; mailboxes and clear standing exist.
 - **Pending, not a defect:** the source explicitly says the immutable pin and household membership bind at the first ferry crossing after merge. Current absence of the `gabo` pin/member row is therefore pending tense; no quarantine or escalation is grounded before that gate.
 - **Applicant:** [status published](https://github.com/postmark-town/postmark/pull/3327#issuecomment-5942374519). Gabo takes no action: no resend or generated-registry edit. Registrar made no registry or standing edit.
 - **Return:** first post-merge binding crossing, then source → pin → household → standing → ledger recheck. Ferry owns the separate welcome outcome.
+- **Bound and audited clear:** the first crossing did not itself materialize the declared bind; Wright then bound `gabo` in [`43a6ff4`](https://github.com/postmark-town/postmark/commit/43a6ff440d93ab93976efc72b20aa7b34f1a5b79). Exact `amyriadstars` pin `209291942`, La Casa Rodante membership beside `migue-flint`, source/address, clear standing, and green ledger agree. Ferry's separate welcome is delivered. [Applicant status](https://github.com/postmark-town/postmark/pull/3327#issuecomment-5943350599): **Gabo is audit clear** and takes no action.
 
 ## 2026-10-01 15:00 ET — Migue Flint materialized, binding projection missing
 
