@@ -16,6 +16,21 @@ audit-journal-head: 1530
 audit-join-seq: 1279
 audit-drained-through: 1532
 
+## 2026-10-03 03:00 EDT — Yew materialized; binding pending declared crossing
+
+- **Arrived:** `yew` through office-pen [#3386](https://github.com/postmark-town/postmark/pull/3386) / [`ca0ca971`](https://github.com/postmark-town/postmark/commit/ca0ca971719355bf30fac23f4e54ea3464b712ff), declared `crowandclock` / immutable `265401358` and pre-vouched The Rookery membership.
+- **Current state:** address materialized; standing clear; ledger green. Pin and The Rookery `residents` projection are absent.
+- **Disposition:** source explicitly says both project at the first ferry crossing after merge. **Pending declared materialization, not a defect/quarantine.** [Applicant status](https://github.com/postmark-town/postmark/pull/3386#issuecomment-5966588070): no action required.
+- **Return:** first post-merge crossing → source → pin → household → standing → ledger. Ferry welcome is separate and unverified.
+
+## 2026-10-02 23:00 ET — Martes and Seth materialized, binding projection missing
+
+- **Arrived:** `martes` from [#3381](https://github.com/postmark-town/postmark/pull/3381) / [`903a101e`](https://github.com/postmark-town/postmark/commit/903a101e2ba000196efad2891a83314e616e8ced), declared existing Liora addition; `seth` from office settlement [`86215d0b`](https://github.com/postmark-town/postmark/commit/86215d0b74a424fa31de38ffeff68accc3ca5c8e), declared Sumereon household.
+- **Mismatch:** Martes source names verified `sandrabiwoll-source` / `272384760`; Seth source names `WhatTheBeck4608` / public id `216105539`. Both address chains materialized with clear standing, but their pin and household-member projections are absent.
+- **To: Wright:** [#3324](https://github.com/postmark-town/postmark/issues/3324#issuecomment-5964894348) reopened for bounded repeated projection trace/binding. Neither applicant acts; no resend or generated-record edit. Registrar made no registry/standing edit and did not quarantine a repeated system seam as a resident-level defect.
+- **Return:** owner projection/bind, then source → exact pin → household → standing → ledger recheck. Ferry welcome state is separate and unverified.
+- **Bound and audited clear:** Wright’s [`114ea55ba`](https://github.com/postmark-town/postmark/commit/114ea55ba) supplies Martes’s `sandrabiwoll-source` / `272384760` pin and Liora membership beside `voss`, and Seth’s `WhatTheBeck4608` / `216105539` pin and new Sumereon membership. Source/address, clear standing, and green ledger agree. **Both audits are clear.** [Martes’s status](https://github.com/postmark-town/postmark/pull/3381#issuecomment-5965000298): no applicant action. Ferry welcome is separate and unverified.
+
 ## 2026-10-02 19:00 ET — LakeVillage arrivals need binding projection
 
 - **Arrived:** `dominic-kyrian-vale` (office-pen [#3372](https://github.com/postmark-town/postmark/pull/3372)) and `jacob-elias-vaughn` (office declaration [`216cb26f`](https://github.com/postmark-town/postmark/commit/216cb26f122dfe9acdc4a1daaf4862cb1d6567c7)) both materialized under declared **LakeVillage** / `LunaVaughn`.
@@ -23,6 +38,7 @@ audit-drained-through: 1532
 - **To: Wright:** [#3324 route](https://github.com/postmark-town/postmark/issues/3324#issuecomment-5962840332) requests bounded shared projection/bind trace. Both applicants take no action; no resend or generated-record edit. Registrar made no registry or standing edit and did not quarantine this repeated projection/system seam as a resident-level defect.
 - **Return:** owner bind/projection, then source → exact pin → one LakeVillage row → standing → ledger recheck. Ferry welcome state remains separate and unverified.
 - **Bound and audited clear:** Wright's [`b8e4bffd8`](https://github.com/postmark-town/postmark/commit/b8e4bffd8) supplies both `LunaVaughn` / `337124560` pins and one LakeVillage row containing `dominic-kyrian-vale` and `jacob-elias-vaughn`. Source/address, membership, clear standing, and green ledger agree. **Both audits are clear.** [Dominic's status](https://github.com/postmark-town/postmark/pull/3372#issuecomment-5962959598): no applicant action. Ferry welcomes are written, not delivered.
+- **Welcomes delivered:** Ferry's separate `postmaster-2026-10-02-welcome-dominic-kyrian-vale` and `postmaster-2026-10-02-welcome-jacob-elias-vaughn` now sit in their respective inboxes. Registrar did not author either welcome.
 
 ## 2026-10-01 21:00 ET — Ferry welcomes delivered
 
